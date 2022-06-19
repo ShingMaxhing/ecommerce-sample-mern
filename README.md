@@ -78,3 +78,68 @@ ii. create 3 columns for image, info and action
 15. Complete Add to Cart
     i. check exist item in the cart
     ii. check count in stock in backend
+
+16. Create Cart Screen
+    i. create 2 columns
+    ii. display items list
+    iii. create action column
+17. Complete Cart Screen
+    i. click handler for inc/dec item
+    ii. click handler for remove item
+    iii.click handler for checkout
+
+18. Create Signin Screen
+    i. create sign in form
+    ii. add email and password
+    iii. add signin
+
+19. Connect To MongoDB Database
+    i. create atlas mongodb database
+    ii. install local mongodb database
+    iii.npm install mongoose
+    iv. connect to mongodb database
+
+20. Seed Sample Data
+    i. create Product model
+    ii. create User model
+    iii. create seed route
+    iv. use route in server.js
+    v. seed sample product
+
+21. Seed Sample Users
+    i.create user model
+    ii. seed sample users
+    iii. create user routes
+
+22. Create Signin Backend API
+    i. craete signin api
+    ii. npm install jsonwebtoken
+    iii. define generateToken
+
+23. Complete Signin Screen
+    i. handle submit action
+    ii. save token in store and local storage
+    iii. show user name is header
+
+24. Create Shipping Screen
+    i. create form inputs
+    ii. handle save shipping address
+    iii. add checkout wizard bar
+
+25. Create Sign Up Screen
+    i. create input forms
+    ii. handle submit
+    iii. create backend api
+
+26. Implement Select Payment Method Screen
+    i. create input forms
+    ii. handle submit
+
+27. Create Place Order Screen
+    i. show cart items, payment and address
+    ii. handle place order action
+    iii. create order create api
+
+28. Implement Place Order Action
+    i. handle place order action
+    ii. create order create api

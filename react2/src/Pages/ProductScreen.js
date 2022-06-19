@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import { useEffect, useReducer, useContext } from 'react';
 import { Row, Col } from 'react-bootstrap';
 import axios from 'axios';
@@ -8,7 +8,7 @@ import { Card } from 'react-bootstrap';
 import { Helmet } from 'react-helmet-async';
 import LoadingBox from '../Component/LoadingBox';
 import MessageBox from '../Component/MessageBox';
-import { getError } from '../util';
+import { getError } from '../utils';
 import { Store } from '../Store';
 
 const reducer = (state, action) => {
@@ -25,6 +25,7 @@ const reducer = (state, action) => {
 };
 
 function ProductScreen() {
+  const navigate = useNavigate;
   const params = useParams();
   const { slug } = params;
 
@@ -61,6 +62,7 @@ function ProductScreen() {
       type: 'CART_ADD_ITEM',
       payload: { ...product, quantity },
     });
+    navigate('/cart');
   };
 
   return loading ? (
