@@ -1,5 +1,4 @@
 import express from 'express';
-
 import path from 'path';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
@@ -32,7 +31,7 @@ app.use('/api/users', userRouter);
 app.use('/api/orders', orderRouter);
 
 const __dirname = path.resolve();
-app.use(express.static(path.join(__dirname, 'react2/build')));
+app.use(express.static(path.join(__dirname, '/react2/build')));
 app.get('*', (req, res) =>
   res.sendFile(path.join(__dirname, '/react2/build/index.html'))
 );
