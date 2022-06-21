@@ -143,3 +143,39 @@ ii. create 3 columns for image, info and action
 28. Implement Place Order Action
     i. handle place order action
     ii. create order create api
+
+29. Create Order Screen
+    i. create backend api for order/:id
+    ii. fetch order api in frontend
+    iii. show order information in 2 columns
+
+30. Pay order by paypal
+    i. generate paypal client id
+    ii. create api to return client id
+    iii. install ract-paypal-js
+    iv. use PayPalScript Provider in index.js
+    v. use PaypPalScriptReducer in Order Screen
+    vi. implement loadPaypalScript function
+    vii. render paypal button
+    viii. implement onApprove payment function
+    ix. create pay order api in backend
+
+31. Display Order History
+    i. create order screen
+    ii. create order history api
+    iii. use api in the frontend
+
+32. Create Profile Screen
+    i. get user info from context
+    ii. show user information
+    iii. create user update api
+    iv. update user info
+
+33. Publish To Heroku
+    i. create and config node project
+    ii. serve build folder in frontend folder
+    iii.Create heroku account
+    iv. connect it to github
+    v. create mongodb atlas database
+    vi. set database connection in geroku env variables
+    vii. commit and push
