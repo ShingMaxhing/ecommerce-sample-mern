@@ -13,8 +13,8 @@
     "url": "git+https://github.com/ShingMaxhing/ecommerce-sample-mern.git"
   },
   "engines": {
-    "npm": ">=7.5.1",
-    "node": ">=15.8.0"
+    "npm": "7.5.1",
+    "node": "15.8.0"
   },
   "author": "",
   "license": "ISC",
