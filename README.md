@@ -179,3 +179,12 @@ ii. create 3 columns for image, info and action
     v. create mongodb atlas database
     vi. set database connection in geroku env variables
     vii. commit and push
+
+34. Add Sidebar and Search Box
+    i. add sidebar
+    ii. add search box
+
+35. Create Search Screen
+    i. show filters
+    ii. create api for searching products
+    iii. display results
