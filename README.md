@@ -188,3 +188,8 @@ ii. create 3 columns for image, info and action
     i. show filters
     ii. create api for searching products
     iii. display results
+
+36. Create Admin Menu
+    i. define protected route component
+    ii. define admin route component
+    iii. add menu for admin in header
